@@ -1,3 +1,24 @@
 header {
-  background-color: black;
+  background-color: #16243d;
+  color: #97a2b7;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+
+header p {
+  margin-bottom: 0px;
+}
+
+a[href^='mailto'] {
+  text-decoration: none;
+  color: inherit;
+}
+
+a[href^='mailto']:hover {
+  text-decoration: underline;
+}
+
+.header-icon {
+  color: #015fc9;
+  margin-right: 5px;
 }
